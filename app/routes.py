@@ -1,7 +1,9 @@
 from app import app
+from flask import render_template
 
 
 @app.route('/')
 @app.route('/index')
 def index():
-    return "Hello, Welcome to my CoffeeShop."
+    return render_template('index.html')
+

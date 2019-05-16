@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34867c4e-738b-4de2-a7e5-4ec8cf280611" name="Default Changelist" comment="" />
+    <list default="true" id="34867c4e-738b-4de2-a7e5-4ec8cf280611" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/css/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/fonts/CaviarDreams-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/fonts/CaviarDreams-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/aftnun.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/aftnun.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/bg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/bg2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/cup.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/cup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/evg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/evg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/grid-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/grid-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/header_img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/header_img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/marker.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/marker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/marker2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/marker2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/menu-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/menu-hover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/nav-arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/nav-arrows.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/night.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/night.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/service-img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/service-img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/service-img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/service-img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/service-img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/service-img3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/slider-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/slider-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/slider-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/slider-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/slider-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/slider-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/slider-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/slider-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/special-img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/special-img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/special-img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/special-img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/images/special-img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/special-img3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/js/jquery-1.9.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/jquery-1.9.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/js/jquery.nivo.slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/jquery.nivo.slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/price.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/price.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/services.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +60,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="flaskenv" value="1" />
-          <entry key="html" value="1" />
+          <entry key="html" value="7" />
           <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="3" />
         </counts>
@@ -33,13 +74,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="flaskenv" value="23" />
-          <entry key="py" value="108" />
+          <entry key="html" value="26" />
+          <entry key="py" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="26" />
           <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="108" />
+          <entry key="Python" value="156" />
         </counts>
       </usages-collector>
     </session>
@@ -55,13 +98,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="119">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/price.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/contact.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/services.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -77,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/CoffeeShop.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -91,14 +170,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/templates/about.html" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
         <option value="$PROJECT_DIR$/CoffeeShop.py" />
         <option value="$PROJECT_DIR$/.flaskenv" />
         <option value="$PROJECT_DIR$/app/routes.py" />
+        <option value="$PROJECT_DIR$/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/app/templates/about.html" />
       </list>
     </option>
   </component>
@@ -112,6 +195,7 @@
     <option name="width" value="718" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -129,6 +213,12 @@
               <item name="CoffeeShopWebUI" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CoffeeShopWebUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoffeeShopWebUI" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -145,6 +235,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/templates" />
     </key>
@@ -209,13 +302,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -233,14 +319,40 @@
     <entry file="file://$PROJECT_DIR$/CoffeeShop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/services.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/price.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
         </state>
       </provider>
     </entry>
