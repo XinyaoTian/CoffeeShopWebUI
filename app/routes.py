@@ -2,7 +2,7 @@ from app import app
 from flask import render_template, request, redirect, url_for
 from config import Config
 from func_pack import get_api_info
-from flask_login import current_user, login_user, login_required
+from flask_login import current_user, login_user, login_required, logout_user
 from app.models import User
 import requests
 
@@ -57,3 +57,8 @@ def login_validation():
     else:
         return render_template('login.html')
 
+
+@app.route('/logout')
+def logout():
+    logout_user()
+    return redirect(url_for('login_view'))
