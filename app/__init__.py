@@ -11,4 +11,4 @@ login = LoginManager(app)
 # 根据 routes.py 中的视图函数来进行 login 界面的跳转
 login.login_view = 'login_view'
 
-from app import routes
+from app import routes, errors
