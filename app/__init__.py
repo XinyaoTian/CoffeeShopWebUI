@@ -7,6 +7,8 @@ app = Flask(__name__)
 app.config.from_object(Config)
 
 login = LoginManager(app)
-login.login_view = 'login'
+# 这里是指定 @login_required 标签重定位时的位置
+# 根据 routes.py 中的视图函数来进行 login 界面的跳转
+login.login_view = 'login_view'
 
 from app import routes
