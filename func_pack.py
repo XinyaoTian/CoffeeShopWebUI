@@ -12,6 +12,8 @@ def _bytes_to_str(bytes_info):
 # 使用方法 :
 # content = requests.get('http://23.106.158.242:30080/users')
 # get_api_info(content)
+# 注意！ API 的 json 数据的最外层必须是 list 的形式，如 [{'k':'value'}]
+# 不用 list 作为最外层将不能转化成功，如 {'k':'value'}
 def get_api_info(request_result):
     content_str = request_result.content.decode("utf-8")
     list_content = []
