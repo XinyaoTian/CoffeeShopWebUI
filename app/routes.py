@@ -30,7 +30,7 @@ def price_view():
 def login_validation():
     # check whether user has already login
     if current_user.is_authenticated:
-        return redirect(url_for('index'))
+        return redirect(url_for('home'))
 
     # get POST infos
     data_received = request.values.to_dict()
@@ -53,9 +53,9 @@ def login_validation():
     if validation_result['validation'] == 'True':
         verified_user = User(validation_result['uid'])
         login_user(verified_user)
-        return redirect(url_for('index'))
+        return redirect(url_for('home'))
     else:
-        return render_template('login.html')
+        return redirect(url_for('login_view'))
 
 
 @app.route('/logout')
@@ -67,7 +67,7 @@ def logout():
 @app.route('/signup', methods=['GET'])
 def signup_view():
     if current_user.is_authenticated:
-        return redirect(url_for('index'))
+        return redirect(url_for('home'))
     return render_template('signup.html')
 
 
@@ -75,7 +75,7 @@ def signup_view():
 def signup_validation():
     # check whether user has already login
     if current_user.is_authenticated:
-        return redirect(url_for('index'))
+        return redirect(url_for('home'))
 
     # get POST infos
     data_received = request.values.to_dict()
@@ -102,7 +102,7 @@ def signup_validation():
     if validation_result['username'] == data_received['username']:
         verified_user = User(validation_result['id'])
         login_user(verified_user)
-        return redirect(url_for('index'))
+        return redirect(url_for('home'))
     else:
         return redirect(url_for('signup_view'))
 
@@ -125,3 +125,19 @@ def home():
     data_dict['user'] = userinfo_result
 
     return render_template('home.html', form=data_dict)
+
+
+@app.route('/about', methods=['GET'])
+def about():
+    return render_template('about.html')
+
+
+@app.route('/service', methods=['GET'])
+def service():
+    return render_template('services.html')
+
+
+@app.route('/contact', methods=['GET'])
+def contact():
+    return render_template('contact.html')
+

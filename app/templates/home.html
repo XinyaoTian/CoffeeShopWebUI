@@ -20,12 +20,19 @@
                   </div>
 	      	       <div class="menu">
 				      <nav class="clearfix">
-						<ul class="clearfix">
-							      <li><a href="index.html">HOME</a></li>
-								  <li><a href="about.html">ABOUT</a></li>
-								  <li  class="active"><a href="services.html">SERVICES</a></li>
-								  <li><a href="Price.html">PRICE LIST</a></li>
-								  <li><a href="contact.html">CONTACT</a></li>	
+						  <ul class="clearfix">
+							{% if current_user.is_anonymous %}
+        					<li><a href="{{ url_for('login_view') }}">LOGIN</a></li>
+                            <li><a href="{{ url_for('signup_view') }}">SIGN UP</a></li>
+        					{% else %}
+        					<li><a href="{{ url_for('logout') }}">LOGOUT</a></li>
+        					{% endif %}
+                            <li><a href="{{ url_for('index') }}">INDEX</a></li>
+							<li class="active" ><a href="{{ url_for('home') }}">HOME</a></li>
+							<li><a href="{{ url_for('about') }}">ABOUT</a></li>
+							<li><a href="{{ url_for('service') }}">SERVICES</a></li>
+							<li><a href="{{ url_for('price_view') }}">PRICE LIST</a></li>
+							<li><a href="{{ url_for('contact') }}">CONTACT</a></li>
 						 </ul>
 						<a href="#" id="pull">Menu</a>
 					  </nav>
