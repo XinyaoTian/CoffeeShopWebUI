@@ -105,3 +105,23 @@ def signup_validation():
         return redirect(url_for('index'))
     else:
         return redirect(url_for('signup_view'))
+
+
+@app.route('/home', methods=['GET'])
+@login_required
+def home():
+    # passed to form
+    data_dict = dict()
+
+    # assemble url
+    api_format = '/users/uid/'
+    user_id = str(current_user.id)
+    userinfo_url = 'http://' + Config.DB_SOURCE_IP + ':' + Config.DB_SOURCE_PORT + api_format + user_id
+
+    # GET to DB source API
+    # 获取用户数据信息并存入 data_dict ，再传入视图函数中
+    result = requests.get(userinfo_url)
+    userinfo_result = get_api_info(result)[0]
+    data_dict['user'] = userinfo_result
+
+    return render_template('home.html', form=data_dict)
